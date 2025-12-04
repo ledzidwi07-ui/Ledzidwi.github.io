@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Perpustakaan Online | SMK PERTIWI KUNINGAN</title>
+    <link rel="stylesheet" href="latihan.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/png" a href="logo Smk Pertiwi 2.png">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo Smk Pertiwi 2.png" alt="logo">
+            <h1>PERPUSTAKAAN ONLINE SMK PERTIWI KUNINGAN</h1>
+        </div>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="daftar-buku.html">Daftar Buku</a>
+        <a href="daftar-pinjam.html">Daftar Pinjam</a>
+        <a href="daftar-pengambilan.html">Daftar pengambilan</a>
+    </nav>
+
+    <main>
+        <div class="intro">
+        <h2>Selamat Datang di Perpustakaan Online SMK Pertiwi Kuningan</h2>
+        <p>Silakan pilih menu untuk melihat daftar buku, peminjaman, atau pengembalian.</p>
+
+        <h3>Cari Buku</h3>
+        <input type="text" id="searchInput" placeholder="Masukkan judul buku...">
+        <button onclick="cariBuku()">Cari</button>
+        </div>
+
+        <h3>Daftar Buku</h3>
+        <table id="tabelBuku">
+            <tr>
+                <th>No</th>
+                <th>Judul Buku</th>
+                <th>Penulis</th>
+                <th>Kategori</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Laskar Pelangi</td>
+                <td>Andrea Hirata</td>
+                <td>Fiksi</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Biologi Dasar</td>
+                <td>Bambang Triyono</td>
+                <td>Ilmu Pengetahuan</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Pemrograman Web</td>
+                <td>Rahmat Hidayat</td>
+                <td>Teknologi</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Bumi Manusia</td>
+                <td>Azhar Fardad</td>
+                <td>Fiksi</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Biografi Gus Dur</td>
+                <td>Ledzi Dwi</td>
+                <td>Karya</td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        Kontak: Perpustakaan@smk-pertiwi.sch.id | Telp: 021-12345678
+    </footer>
+</body>
+
+</html>
